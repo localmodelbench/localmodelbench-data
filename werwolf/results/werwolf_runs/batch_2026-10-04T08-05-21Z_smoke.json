@@ -1,0 +1,75 @@
+{
+  "batch_tag": "smoke",
+  "started": "2026-10-04T08-05-21Z",
+  "games_requested": 2,
+  "games_ok": 2,
+  "elapsed_seconds": 731.0,
+  "roster": [
+    {
+      "name": "Helga",
+      "persona": "64, skeptical retired schoolteacher, trusts nobody",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Bruno",
+      "persona": "41, gruff blacksmith of few words",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Ingrid",
+      "persona": "33, nosy baker who hears everything in the village",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Jakob",
+      "persona": "27, nervous farmhand, stammers under pressure",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Marta",
+      "persona": "52, pragmatic midwife, calm under fire",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Otto",
+      "persona": "70, retired mayor, loves long-winded speeches",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Lena",
+      "persona": "19, sharp-tongued apprentice, sarcastic",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Fritz",
+      "persona": "45, smooth-talking traveling peddler",
+      "model": "granite4.1:8b"
+    }
+  ],
+  "results": [
+    {
+      "run_id": "2026-10-04T07-53-10Z_werwolf_granite4.1_8b_seed200",
+      "seed": 200,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 3,
+      "events": 73,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 358.6
+    },
+    {
+      "run_id": "2026-10-04T07-59-09Z_werwolf_granite4.1_8b_seed201",
+      "seed": 201,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 3,
+      "events": 74,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 372.3
+    }
+  ]
+}

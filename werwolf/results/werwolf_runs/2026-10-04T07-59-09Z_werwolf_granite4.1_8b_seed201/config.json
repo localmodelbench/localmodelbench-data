@@ -1,0 +1,66 @@
+{
+  "run_id": "2026-10-04T07-59-09Z_werwolf_granite4.1_8b_seed201",
+  "seed": 201,
+  "base_url": "http://127.0.0.1:11434",
+  "temperature": 0.7,
+  "max_days": 8,
+  "discussion_rounds": 2,
+  "roster": [
+    {
+      "seat": 0,
+      "name": "Helga",
+      "persona": "64, skeptical retired schoolteacher, trusts nobody",
+      "model": "granite4.1:8b",
+      "role": "villager"
+    },
+    {
+      "seat": 1,
+      "name": "Bruno",
+      "persona": "41, gruff blacksmith of few words",
+      "model": "granite4.1:8b",
+      "role": "villager"
+    },
+    {
+      "seat": 2,
+      "name": "Ingrid",
+      "persona": "33, nosy baker who hears everything in the village",
+      "model": "granite4.1:8b",
+      "role": "villager"
+    },
+    {
+      "seat": 3,
+      "name": "Jakob",
+      "persona": "27, nervous farmhand, stammers under pressure",
+      "model": "granite4.1:8b",
+      "role": "werwolf"
+    },
+    {
+      "seat": 4,
+      "name": "Marta",
+      "persona": "52, pragmatic midwife, calm under fire",
+      "model": "granite4.1:8b",
+      "role": "witch"
+    },
+    {
+      "seat": 5,
+      "name": "Otto",
+      "persona": "70, retired mayor, loves long-winded speeches",
+      "model": "granite4.1:8b",
+      "role": "seer"
+    },
+    {
+      "seat": 6,
+      "name": "Lena",
+      "persona": "19, sharp-tongued apprentice, sarcastic",
+      "model": "granite4.1:8b",
+      "role": "villager"
+    },
+    {
+      "seat": 7,
+      "name": "Fritz",
+      "persona": "45, smooth-talking traveling peddler",
+      "model": "granite4.1:8b",
+      "role": "werwolf"
+    }
+  ]
+}

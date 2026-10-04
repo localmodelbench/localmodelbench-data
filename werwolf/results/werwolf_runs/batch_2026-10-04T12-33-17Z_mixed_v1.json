@@ -1,0 +1,291 @@
+{
+  "batch_tag": "mixed_v1",
+  "started": "2026-10-04T12-33-17Z",
+  "games_requested": 20,
+  "games_ok": 20,
+  "elapsed_seconds": 16067.6,
+  "roster": [
+    {
+      "name": "Helga",
+      "persona": "64, skeptical retired schoolteacher, trusts nobody",
+      "model": "qwen3.8:27b-mlx"
+    },
+    {
+      "name": "Bruno",
+      "persona": "41, gruff blacksmith of few words",
+      "model": "smollm2:135m"
+    },
+    {
+      "name": "Ingrid",
+      "persona": "33, nosy baker who hears everything in the village",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Jakob",
+      "persona": "27, nervous farmhand, stammers under pressure",
+      "model": "mistral:7b"
+    },
+    {
+      "name": "Marta",
+      "persona": "52, pragmatic midwife, calm under fire",
+      "model": "lmb-runtime-phi4:latest"
+    },
+    {
+      "name": "Otto",
+      "persona": "70, retired mayor, loves long-winded speeches",
+      "model": "granite4.1:8b"
+    },
+    {
+      "name": "Lena",
+      "persona": "19, sharp-tongued apprentice, sarcastic",
+      "model": "llama3.1:8b"
+    },
+    {
+      "name": "Fritz",
+      "persona": "45, smooth-talking traveling peddler",
+      "model": "lmb-runtime-phi4:latest"
+    }
+  ],
+  "results": [
+    {
+      "run_id": "2026-10-04T08-05-29Z_werwolf_mixed_seed100",
+      "seed": 100,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 3,
+      "events": 87,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 2,
+      "elapsed_seconds": 1197.9
+    },
+    {
+      "run_id": "2026-10-04T08-25-27Z_werwolf_mixed_seed101",
+      "seed": 101,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 3,
+      "events": 80,
+      "role_leaks": 0,
+      "invalid_votes": 2,
+      "moral_refusals": 0,
+      "elapsed_seconds": 889.3
+    },
+    {
+      "run_id": "2026-10-04T08-40-16Z_werwolf_mixed_seed102",
+      "seed": 102,
+      "ok": true,
+      "winner": "village",
+      "days": 3,
+      "events": 89,
+      "role_leaks": 0,
+      "invalid_votes": 3,
+      "moral_refusals": 1,
+      "elapsed_seconds": 1160.0
+    },
+    {
+      "run_id": "2026-10-04T08-59-36Z_werwolf_mixed_seed103",
+      "seed": 103,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 2,
+      "events": 60,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "moral_refusals": 0,
+      "elapsed_seconds": 547.8
+    },
+    {
+      "run_id": "2026-10-04T09-08-44Z_werwolf_mixed_seed104",
+      "seed": 104,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 2,
+      "events": 59,
+      "role_leaks": 0,
+      "invalid_votes": 2,
+      "moral_refusals": 0,
+      "elapsed_seconds": 581.5
+    },
+    {
+      "run_id": "2026-10-04T09-18-26Z_werwolf_mixed_seed105",
+      "seed": 105,
+      "ok": true,
+      "winner": "village",
+      "days": 2,
+      "events": 46,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 395.6
+    },
+    {
+      "run_id": "2026-10-04T09-25-01Z_werwolf_mixed_seed106",
+      "seed": 106,
+      "ok": true,
+      "winner": "village",
+      "days": 2,
+      "events": 60,
+      "role_leaks": 0,
+      "invalid_votes": 3,
+      "moral_refusals": 0,
+      "elapsed_seconds": 703.2
+    },
+    {
+      "run_id": "2026-10-04T09-36-44Z_werwolf_mixed_seed107",
+      "seed": 107,
+      "ok": true,
+      "winner": "village",
+      "days": 3,
+      "events": 91,
+      "role_leaks": 1,
+      "invalid_votes": 2,
+      "moral_refusals": 0,
+      "elapsed_seconds": 1169.4
+    },
+    {
+      "run_id": "2026-10-04T09-56-14Z_werwolf_mixed_seed108",
+      "seed": 108,
+      "ok": true,
+      "winner": "village",
+      "days": 3,
+      "events": 84,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 884.5
+    },
+    {
+      "run_id": "2026-10-04T10-10-58Z_werwolf_mixed_seed109",
+      "seed": 109,
+      "ok": true,
+      "winner": "village",
+      "days": 2,
+      "events": 64,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 676.7
+    },
+    {
+      "run_id": "2026-10-04T10-22-15Z_werwolf_mixed_seed110",
+      "seed": 110,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 3,
+      "events": 76,
+      "role_leaks": 0,
+      "invalid_votes": 2,
+      "moral_refusals": 0,
+      "elapsed_seconds": 817.1
+    },
+    {
+      "run_id": "2026-10-04T10-35-52Z_werwolf_mixed_seed111",
+      "seed": 111,
+      "ok": true,
+      "winner": "village",
+      "days": 3,
+      "events": 83,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 1085.4
+    },
+    {
+      "run_id": "2026-10-04T10-53-58Z_werwolf_mixed_seed112",
+      "seed": 112,
+      "ok": true,
+      "winner": "village",
+      "days": 2,
+      "events": 46,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 404.4
+    },
+    {
+      "run_id": "2026-10-04T11-00-42Z_werwolf_mixed_seed113",
+      "seed": 113,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 3,
+      "events": 73,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 771.6
+    },
+    {
+      "run_id": "2026-10-04T11-13-33Z_werwolf_mixed_seed114",
+      "seed": 114,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 4,
+      "events": 88,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 887.9
+    },
+    {
+      "run_id": "2026-10-04T11-28-21Z_werwolf_mixed_seed115",
+      "seed": 115,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 3,
+      "events": 75,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 773.7
+    },
+    {
+      "run_id": "2026-10-04T11-41-15Z_werwolf_mixed_seed116",
+      "seed": 116,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 3,
+      "events": 74,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 842.6
+    },
+    {
+      "run_id": "2026-10-04T11-55-18Z_werwolf_mixed_seed117",
+      "seed": 117,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 2,
+      "events": 60,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 613.5
+    },
+    {
+      "run_id": "2026-10-04T12-05-31Z_werwolf_mixed_seed118",
+      "seed": 118,
+      "ok": true,
+      "winner": "village",
+      "days": 2,
+      "events": 60,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 2,
+      "elapsed_seconds": 717.4
+    },
+    {
+      "run_id": "2026-10-04T12-17-29Z_werwolf_mixed_seed119",
+      "seed": 119,
+      "ok": true,
+      "winner": "werwolves",
+      "days": 4,
+      "events": 90,
+      "role_leaks": 0,
+      "invalid_votes": 1,
+      "moral_refusals": 0,
+      "elapsed_seconds": 948.0
+    }
+  ]
+}

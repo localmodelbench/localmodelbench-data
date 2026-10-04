@@ -1,0 +1,102 @@
+{
+  "winner": "werwolves",
+  "days": 2,
+  "seed": 103,
+  "events": 60,
+  "role_leaks": 0,
+  "invalid_votes": 0,
+  "moral_refusals": 0,
+  "players": [
+    {
+      "name": "Helga",
+      "model": "qwen3.8:27b-mlx",
+      "role": "villager",
+      "survived": false,
+      "statements": 0,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "refusals": 0
+    },
+    {
+      "name": "Bruno",
+      "model": "smollm2:135m",
+      "role": "witch",
+      "survived": false,
+      "statements": 2,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "refusals": 0
+    },
+    {
+      "name": "Ingrid",
+      "model": "granite4.1:8b",
+      "role": "seer",
+      "survived": false,
+      "statements": 2,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "refusals": 0
+    },
+    {
+      "name": "Jakob",
+      "model": "mistral:7b",
+      "role": "werwolf",
+      "survived": true,
+      "statements": 4,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "refusals": 0
+    },
+    {
+      "name": "Marta",
+      "model": "lmb-runtime-phi4:latest",
+      "role": "werwolf",
+      "survived": true,
+      "statements": 4,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "refusals": 0
+    },
+    {
+      "name": "Otto",
+      "model": "granite4.1:8b",
+      "role": "villager",
+      "survived": true,
+      "statements": 4,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "refusals": 0
+    },
+    {
+      "name": "Lena",
+      "model": "llama3.1:8b",
+      "role": "villager",
+      "survived": false,
+      "statements": 4,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "refusals": 0
+    },
+    {
+      "name": "Fritz",
+      "model": "lmb-runtime-phi4:latest",
+      "role": "villager",
+      "survived": true,
+      "statements": 4,
+      "role_leaks": 0,
+      "invalid_votes": 0,
+      "refusals": 0
+    }
+  ],
+  "roles": {
+    "Helga": "villager",
+    "Bruno": "witch",
+    "Ingrid": "seer",
+    "Jakob": "werwolf",
+    "Marta": "werwolf",
+    "Otto": "villager",
+    "Lena": "villager",
+    "Fritz": "villager"
+  },
+  "elapsed_seconds": 547.8
+}
