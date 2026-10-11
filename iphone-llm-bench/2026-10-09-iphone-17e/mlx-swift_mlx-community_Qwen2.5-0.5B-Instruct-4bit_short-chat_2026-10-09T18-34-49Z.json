@@ -1,0 +1,73 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineVersion" : "60bd0d7880c82980f9481f8be78862e9b63c58a3",
+  "id" : "35CA1C85-AC5D-43B1-91F7-00DCE5A43954",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : true,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 184.61441796713004,
+    "decodeTokensPerSecondWallClock" : 183.20988668313117,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 820,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 5.3740739822387695,
+    "interTokenLatencyP95MS" : 5.481958389282227,
+    "interTokenLatencyP99MS" : 7.153034210205078,
+    "loadTimeSeconds" : 30.123683094978333,
+    "memoryAfterGenerationMB" : 386.89173126220703,
+    "memoryAfterLoadMB" : 338.51670837402344,
+    "memoryBaselineMB" : 10.610160827636719,
+    "memoryFinalResidentMB" : 421.125,
+    "memoryMedianMB" : 386.00110626220703,
+    "memoryMedianResidentMB" : 420.640625,
+    "memoryPeakDuringDecodeMB" : 386.89173126220703,
+    "memoryPeakResidentMB" : 421.125,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 40,
+    "promptTokensPerSecond" : 48.93779915750596,
+    "promptTokensPerSecondWallClock" : 48.76597964888772,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 1.5164440870285034
+  },
+  "model" : {
+    "displayName" : "Qwen 2.5 0.5B (4-bit)",
+    "hfFilePatterns" : [
+      "*"
+    ],
+    "hfRepoId" : "mlx-community\/Qwen2.5-0.5B-Instruct-4bit",
+    "id" : "mlx-community\/Qwen2.5-0.5B-Instruct-4bit",
+    "onDiskSizeMB" : 300,
+    "parameterCountB" : 0.5,
+    "primaryFile" : "",
+    "quantization" : "Q4"
+  },
+  "modelRevision" : "a5339a4131f135d0fdc6a5c8b5bbed2753bbe0f3",
+  "outputSample" : "On-device AI refers to the use of artificial intelligence (AI) technology on the same device as the one running the software. This means that the AI algorithms and models are directly integrated into ",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "mlx-swift",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T18:34:49Z"
+}

@@ -1,0 +1,73 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "llama-b8999-xcframework.zip",
+  "engineVersion" : "b8999",
+  "id" : "3EAE7EED-7D9B-4022-88AB-294BF0BD5414",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 34.91760095604875,
+    "decodeTokensPerSecondWallClock" : 36.42265219219191,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 183,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 27.31502056121826,
+    "interTokenLatencyP95MS" : 28.39195728302002,
+    "interTokenLatencyP99MS" : 28.661012649536133,
+    "memoryAfterGenerationMB" : 163.76748657226562,
+    "memoryAfterLoadMB" : 163.75186157226562,
+    "memoryBaselineMB" : 163.75186157226562,
+    "memoryFinalResidentMB" : 1388.984375,
+    "memoryMedianMB" : 163.76748657226562,
+    "memoryMedianResidentMB" : 1388.984375,
+    "memoryPeakDuringDecodeMB" : 163.82998657226562,
+    "memoryPeakResidentMB" : 1388.984375,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 19,
+    "promptTokensPerSecond" : 6434.280085583949,
+    "promptTokensPerSecondWallClock" : 103.62864606970233,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 3.670593023300171
+  },
+  "model" : {
+    "displayName" : "Qwen 3.5 2B Q4_K_M (GGUF)",
+    "hfFilePatterns" : [
+      "Qwen3.5-2B-Q4_K_M.gguf"
+    ],
+    "hfRepoId" : "unsloth\/Qwen3.5-2B-GGUF",
+    "id" : "unsloth\/Qwen3.5-2B-GGUF\/Q4_K_M",
+    "onDiskSizeMB" : 1300,
+    "parameterCountB" : 2,
+    "primaryFile" : "Qwen3.5-2B-Q4_K_M.gguf",
+    "quantization" : "Q4_K_M"
+  },
+  "modelRevision" : "f6d5376be1edb4d416d56da11e5397a961aca8ae",
+  "outputSample" : "<think>\n\n<\/think>\n\n**On-device AI** (also called local AI) means using artificial intelligence to process data **right on your device**, rather than sending that data to a cloud server to be analyzed ",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "llama.cpp",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T19:08:24Z"
+}

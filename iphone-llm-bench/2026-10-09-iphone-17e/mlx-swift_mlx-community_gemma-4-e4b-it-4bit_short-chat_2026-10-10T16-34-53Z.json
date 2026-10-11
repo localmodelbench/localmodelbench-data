@@ -1,0 +1,72 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineVersion" : "60bd0d7880c82980f9481f8be78862e9b63c58a3",
+  "id" : "3750BC13-D103-410C-B081-816221445039",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+      22.078467101501282
+    ],
+    "decodeTokensPerSecond" : 22.225019798270832,
+    "decodeTokensPerSecondWallClock" : 22.051593597735977,
+    "finalThermalState" : "fair",
+    "firstTokenLatencyMS" : 190,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 45.1430082321167,
+    "interTokenLatencyP95MS" : 46.48900032043457,
+    "interTokenLatencyP99MS" : 47.901034355163574,
+    "memoryAfterGenerationMB" : 4496.832275390625,
+    "memoryAfterLoadMB" : 4496.832275390625,
+    "memoryBaselineMB" : 4496.832275390625,
+    "memoryFinalResidentMB" : 339.140625,
+    "memoryMedianMB" : 4496.832275390625,
+    "memoryMedianResidentMB" : 339.140625,
+    "memoryPeakDuringDecodeMB" : 4496.832275390625,
+    "memoryPeakResidentMB" : 339.140625,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 20,
+    "promptTokensPerSecond" : 106.25633178756861,
+    "promptTokensPerSecondWallClock" : 105.52697076644289,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 5.961008071899414
+  },
+  "model" : {
+    "displayName" : "Gemma 4 E4B (4-bit)",
+    "hfFilePatterns" : [
+      "*"
+    ],
+    "hfRepoId" : "mlx-community\/gemma-4-e4b-it-4bit",
+    "id" : "mlx-community\/gemma-4-e4b-it-4bit",
+    "onDiskSizeMB" : 3000,
+    "parameterCountB" : 4,
+    "primaryFile" : "",
+    "quantization" : "Q4"
+  },
+  "modelRevision" : "475b9088d29754a3379866cf5aeb6b41acd313c2",
+  "outputSample" : "Imagine you have a really smart little assistant living *inside* your phone, computer, or smart device, instead of needing to constantly call a powerful computer far away in the cloud.\n\n**That's essen",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "mlx-swift",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-10T16:34:53Z"
+}

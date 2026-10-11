@@ -1,0 +1,72 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineVersion" : "60bd0d7880c82980f9481f8be78862e9b63c58a3",
+  "id" : "ADF293DD-06BB-463B-AFBF-C2A53C21B550",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 53.20818296796935,
+    "decodeTokensPerSecondWallClock" : 52.793592814285205,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 102,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 18.916964530944824,
+    "interTokenLatencyP95MS" : 19.1270112991333,
+    "interTokenLatencyP99MS" : 19.450902938842773,
+    "memoryAfterGenerationMB" : 1840.2521591186523,
+    "memoryAfterLoadMB" : 1840.1896591186523,
+    "memoryBaselineMB" : 1840.1896591186523,
+    "memoryFinalResidentMB" : 719.328125,
+    "memoryMedianMB" : 1840.2521591186523,
+    "memoryMedianResidentMB" : 719.3125,
+    "memoryPeakDuringDecodeMB" : 1840.2677841186523,
+    "memoryPeakResidentMB" : 719.328125,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 23,
+    "promptTokensPerSecond" : 226.9789206447803,
+    "promptTokensPerSecondWallClock" : 224.44488339655874,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 2.5153610706329346
+  },
+  "model" : {
+    "displayName" : "Qwen 3.5 2B (4-bit)",
+    "hfFilePatterns" : [
+      "*"
+    ],
+    "hfRepoId" : "mlx-community\/Qwen3.5-2B-MLX-4bit",
+    "id" : "mlx-community\/Qwen3.5-2B-MLX-4bit",
+    "onDiskSizeMB" : 1500,
+    "parameterCountB" : 2,
+    "primaryFile" : "",
+    "quantization" : "Q4"
+  },
+  "modelRevision" : "93760be4f1f69842a46bc13dbdc0f19e291392a3",
+  "outputSample" : "**On-device AI** means that the artificial intelligence (AI) and machine learning models run **directly on your device** (like your phone, tablet, or laptop), rather than sending your data to a cloud ",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "mlx-swift",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T19:04:41Z"
+}

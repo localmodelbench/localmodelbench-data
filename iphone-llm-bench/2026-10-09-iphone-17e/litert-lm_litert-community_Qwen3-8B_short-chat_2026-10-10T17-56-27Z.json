@@ -1,0 +1,73 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "fair",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "CLiteRTLM.xcframework.zip@v0.16.0 sha256:4e0f683da07566ee79c143d2d58d387f77052b0e6a41562c969e5d2728fc9f4b",
+  "engineVersion" : "v0.16.0",
+  "id" : "ABDB47DD-520E-4466-A533-AABC84007C38",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 303.8734857858292,
+    "decodeTokensPerSecondWallClock" : 301.66270510510236,
+    "finalThermalState" : "fair",
+    "firstTokenLatencyMS" : 133,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "fair",
+    "interTokenLatencyP50MS" : 3.2939910888671875,
+    "interTokenLatencyP95MS" : 3.5489797592163086,
+    "interTokenLatencyP99MS" : 3.781914710998535,
+    "memoryAfterGenerationMB" : 1412.5535888671875,
+    "memoryAfterLoadMB" : 1426.5379638671875,
+    "memoryBaselineMB" : 1426.5379638671875,
+    "memoryFinalResidentMB" : 486.546875,
+    "memoryMedianMB" : 1426.6942138671875,
+    "memoryMedianResidentMB" : 488.125,
+    "memoryPeakDuringDecodeMB" : 1426.7879638671875,
+    "memoryPeakResidentMB" : 563.265625,
+    "peakThermalState" : "fair",
+    "promptTokenCount" : 20,
+    "promptTokensPerSecond" : 337.73396182471447,
+    "promptTokensPerSecondWallClock" : 150.11180622163687,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 2.355478048324585
+  },
+  "model" : {
+    "displayName" : "Qwen3 8B (.litertlm)",
+    "hfFilePatterns" : [
+      "qwen3_8b_mixed_int4.litertlm"
+    ],
+    "hfRepoId" : "litert-community\/Qwen3-8B",
+    "id" : "litert-community\/Qwen3-8B",
+    "onDiskSizeMB" : 4400,
+    "parameterCountB" : 8,
+    "primaryFile" : "qwen3_8b_mixed_int4.litertlm",
+    "quantization" : "INT4 (mixed, blockwise gs32)"
+  },
+  "modelRevision" : "71ff705588319d52d374977eff3da4eee0c0d26e",
+  "outputSample" : "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "litert-lm",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-10T17:56:27Z"
+}

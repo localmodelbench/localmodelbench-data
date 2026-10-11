@@ -1,0 +1,77 @@
+{
+  "device" : {
+    "batteryLevel" : 0.75,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "CLiteRTLM.xcframework.zip@v0.16.0 sha256:4e0f683da07566ee79c143d2d58d387f77052b0e6a41562c969e5d2728fc9f4b",
+  "engineVersion" : "v0.16.0",
+  "id" : "F83B4246-B04C-4875-98EC-B82DAD6EB88B",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+      14.335794636744689,
+      13.753196686543058,
+      13.587510248592153,
+      13.73744870450464,
+      13.841185928607123
+    ],
+    "decodeTokensPerSecond" : 14.237752452853586,
+    "decodeTokensPerSecondWallClock" : 14.126530876199096,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 1383,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 72.30305671691895,
+    "interTokenLatencyP95MS" : 75.94192028045654,
+    "interTokenLatencyP99MS" : 77.98898220062256,
+    "memoryAfterGenerationMB" : 967.5979232788086,
+    "memoryAfterLoadMB" : 967.2854232788086,
+    "memoryBaselineMB" : 967.2854232788086,
+    "memoryFinalResidentMB" : 313.90625,
+    "memoryMedianMB" : 967.5197982788086,
+    "memoryMedianResidentMB" : 313.8125,
+    "memoryPeakDuringDecodeMB" : 984.0510711669922,
+    "memoryPeakResidentMB" : 330.1875,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 20,
+    "promptTokensPerSecond" : 16.672446448102008,
+    "promptTokensPerSecondWallClock" : 14.45990489871345,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 48.938608050346375
+  },
+  "model" : {
+    "displayName" : "Qwen3 4B (.litertlm)",
+    "hfFilePatterns" : [
+      "qwen3_4b_mixed_int4.litertlm"
+    ],
+    "hfRepoId" : "litert-community\/Qwen3-4B",
+    "id" : "litert-community\/Qwen3-4B",
+    "onDiskSizeMB" : 2300,
+    "parameterCountB" : 4,
+    "primaryFile" : "qwen3_4b_mixed_int4.litertlm",
+    "quantization" : "INT4 (mixed, blockwise gs32)"
+  },
+  "modelRevision" : "84cc5a35c9c65cd18fcd65bb1f3a7d77a4acfe6e",
+  "outputSample" : "<think>\nOkay, the user is asking for an explanation of on-device AI in simple terms. Let me start by recalling what on-device AI is. It's when AI models run directly on a device, like a phone or a sma",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "litert-lm",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-10T15:51:21Z"
+}

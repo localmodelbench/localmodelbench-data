@@ -1,0 +1,73 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "llama-b8999-xcframework.zip",
+  "engineVersion" : "b8999",
+  "id" : "06C715BE-FEF1-45BD-9F43-EA5E16EFA306",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 68.05708637012333,
+    "decodeTokensPerSecondWallClock" : 72.32213997127761,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 128,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 13.787031173706055,
+    "interTokenLatencyP95MS" : 13.921976089477539,
+    "interTokenLatencyP99MS" : 14.402031898498535,
+    "memoryAfterGenerationMB" : 114.84526824951172,
+    "memoryAfterLoadMB" : 114.84526824951172,
+    "memoryBaselineMB" : 114.84526824951172,
+    "memoryFinalResidentMB" : 901.28125,
+    "memoryMedianMB" : 114.87651824951172,
+    "memoryMedianResidentMB" : 901.28125,
+    "memoryPeakDuringDecodeMB" : 114.87651824951172,
+    "memoryPeakResidentMB" : 901.28125,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 21,
+    "promptTokensPerSecond" : 10791.519725557462,
+    "promptTokensPerSecondWallClock" : 164.04337594879067,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 1.884240984916687
+  },
+  "model" : {
+    "displayName" : "Llama 3.2 1B Q4_K_M (GGUF)",
+    "hfFilePatterns" : [
+      "Llama-3.2-1B-Instruct-Q4_K_M.gguf"
+    ],
+    "hfRepoId" : "bartowski\/Llama-3.2-1B-Instruct-GGUF",
+    "id" : "bartowski\/Llama-3.2-1B-Instruct-GGUF\/Q4_K_M",
+    "onDiskSizeMB" : 800,
+    "parameterCountB" : 1,
+    "primaryFile" : "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+    "quantization" : "Q4_K_M"
+  },
+  "modelRevision" : "067b946cf014b7c697f3654f621d577a3e3afd1c",
+  "outputSample" : "On-device AI refers to artificial intelligence (AI) that is built into a device, such as a smartphone, tablet, or computer, and runs without the need for a separate computer or server. This means that",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "llama.cpp",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T18:43:47Z"
+}

@@ -1,0 +1,72 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineVersion" : "60bd0d7880c82980f9481f8be78862e9b63c58a3",
+  "id" : "F297D267-6CE2-498C-B9EB-287D595C24E8",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 269.76178248742576,
+    "decodeTokensPerSecondWallClock" : 269.56503024365486,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 57,
+    "generatedTokenCount" : 79,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 3.4749507904052734,
+    "interTokenLatencyP95MS" : 4.873037338256836,
+    "interTokenLatencyP99MS" : 5.980968475341797,
+    "memoryAfterGenerationMB" : 262.32913970947266,
+    "memoryAfterLoadMB" : 262.00101470947266,
+    "memoryBaselineMB" : 262.00101470947266,
+    "memoryFinalResidentMB" : 305.9375,
+    "memoryMedianMB" : 262.28226470947266,
+    "memoryMedianResidentMB" : 305.890625,
+    "memoryPeakDuringDecodeMB" : 262.32913970947266,
+    "memoryPeakResidentMB" : 305.9375,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 21,
+    "promptTokensPerSecond" : 400.6868419436502,
+    "promptTokensPerSecondWallClock" : 369.69886127538837,
+    "stopReason" : "stop",
+    "streamedChunkCount" : 79,
+    "totalGenerationTimeSeconds" : 0.3524470329284668
+  },
+  "model" : {
+    "displayName" : "LFM2-350M (4-bit)",
+    "hfFilePatterns" : [
+      "*"
+    ],
+    "hfRepoId" : "mlx-community\/LFM2-350M-4bit",
+    "id" : "mlx-community\/LFM2-350M-4bit",
+    "onDiskSizeMB" : 200,
+    "parameterCountB" : 0.35,
+    "primaryFile" : "",
+    "quantization" : "Q4"
+  },
+  "modelRevision" : "18dc72abf3b2337f9123cfd6eeeb58dfa7947066",
+  "outputSample" : "On-device AI means using AI technology on a device (like your phone or computer) instead of a cloud server. That means your device has its own special AI chip that can process and learn from data on t",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "mlx-swift",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T18:30:30Z"
+}

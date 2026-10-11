@@ -1,0 +1,74 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "llama-b8999-xcframework.zip",
+  "engineVersion" : "b8999",
+  "id" : "1622B18C-33AF-4318-BE9B-2E55D78689BE",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : true,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 112.55792235132164,
+    "decodeTokensPerSecondWallClock" : 117.37214859205255,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 248,
+    "generatedTokenCount" : 121,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 8.440971374511719,
+    "interTokenLatencyP95MS" : 8.898019790649414,
+    "interTokenLatencyP99MS" : 9.739041328430176,
+    "loadTimeSeconds" : 69.75895690917969,
+    "memoryAfterGenerationMB" : 99.235595703125,
+    "memoryAfterLoadMB" : 79.36054992675781,
+    "memoryBaselineMB" : 11.750808715820312,
+    "memoryFinalResidentMB" : 506.375,
+    "memoryMedianMB" : 99.188720703125,
+    "memoryMedianResidentMB" : 506.34375,
+    "memoryPeakDuringDecodeMB" : 99.235595703125,
+    "memoryPeakResidentMB" : 506.375,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 19,
+    "promptTokensPerSecond" : 93.47175618361295,
+    "promptTokensPerSecondWallClock" : 76.54346667230156,
+    "stopReason" : "stop",
+    "streamedChunkCount" : 121,
+    "totalGenerationTimeSeconds" : 1.2790600061416626
+  },
+  "model" : {
+    "displayName" : "Qwen 2.5 0.5B Q4_K_M (GGUF)",
+    "hfFilePatterns" : [
+      "Qwen2.5-0.5B-Instruct-Q4_K_M.gguf"
+    ],
+    "hfRepoId" : "bartowski\/Qwen2.5-0.5B-Instruct-GGUF",
+    "id" : "bartowski\/Qwen2.5-0.5B-Instruct-GGUF\/Q4_K_M",
+    "onDiskSizeMB" : 380,
+    "parameterCountB" : 0.5,
+    "primaryFile" : "Qwen2.5-0.5B-Instruct-Q4_K_M.gguf",
+    "quantization" : "Q4_K_M"
+  },
+  "modelRevision" : "41ba88dbac95fed2528c92514c131d73eb5a174b",
+  "outputSample" : "On-device AI (AI running on the device itself) refers to AI that is designed and developed specifically for the hardware and software of a device, such as a smartphone, tablet, or computer. This means",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "llama.cpp",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T18:38:13Z"
+}

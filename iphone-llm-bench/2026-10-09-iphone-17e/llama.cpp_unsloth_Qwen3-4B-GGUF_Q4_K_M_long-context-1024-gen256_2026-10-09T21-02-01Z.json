@@ -1,0 +1,83 @@
+{
+  "device" : {
+    "batteryLevel" : 0.8,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "fair",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "llama-b8999-xcframework.zip",
+  "engineVersion" : "b8999",
+  "id" : "0BBF8C98-4CED-4DAE-AD21-11998C7C8828",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 2523,
+    "decodeRateRollingWindow" : [
+      17.150384971754114,
+      16.839123835988453,
+      16.645362803436022,
+      16.461915446154652,
+      16.287009980773917,
+      16.135398651234798,
+      15.947411264612995,
+      15.799420263398757,
+      15.696362844635061,
+      15.647003639162147,
+      15.695486342663399
+    ],
+    "decodeTokensPerSecond" : 15.074892481678654,
+    "decodeTokensPerSecondWallClock" : 16.30031021716497,
+    "finalThermalState" : "serious",
+    "firstTokenLatencyMS" : 4786,
+    "generatedTokenCount" : 256,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "fair",
+    "interTokenLatencyP50MS" : 61.946988105773926,
+    "interTokenLatencyP95MS" : 64.65005874633789,
+    "interTokenLatencyP99MS" : 65.02699851989746,
+    "memoryAfterGenerationMB" : 460.0186080932617,
+    "memoryAfterLoadMB" : 460.0654830932617,
+    "memoryBaselineMB" : 460.0654830932617,
+    "memoryFinalResidentMB" : 2797.3125,
+    "memoryMedianMB" : 460.0186080932617,
+    "memoryMedianResidentMB" : 2797.3125,
+    "memoryPeakDuringDecodeMB" : 460.1123580932617,
+    "memoryPeakResidentMB" : 2797.3125,
+    "peakThermalState" : "serious",
+    "promptTokenCount" : 1338,
+    "promptTokensPerSecond" : 388.8290455565322,
+    "promptTokensPerSecondWallClock" : 279.56551667846014,
+    "stopReason" : "length",
+    "streamedChunkCount" : 256,
+    "totalGenerationTimeSeconds" : 20.433602929115295
+  },
+  "model" : {
+    "displayName" : "Qwen3-4B Q4_K_M (GGUF)",
+    "hfFilePatterns" : [
+      "Qwen3-4B-Q4_K_M.gguf"
+    ],
+    "hfRepoId" : "unsloth\/Qwen3-4B-GGUF",
+    "id" : "unsloth\/Qwen3-4B-GGUF\/Q4_K_M",
+    "onDiskSizeMB" : 2500,
+    "parameterCountB" : 4,
+    "primaryFile" : "Qwen3-4B-Q4_K_M.gguf",
+    "quantization" : "Q4_K_M"
+  },
+  "modelRevision" : "22c9fc8a8c7700b76a1789366280a6a5a1ad1120",
+  "outputSample" : "<think>\nOkay, the user wants me to list 25 distinct things that on-device AI can do on a phone that a cloud model can't. Let me start by recalling what on-device AI means. It's AI that runs directly o",
+  "parameters" : {
+    "maxTokens" : 256,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "llama.cpp",
+  "schemaVersion" : 1,
+  "task" : "long-context-1024-gen256",
+  "timestamp" : "2026-10-09T21:02:01Z"
+}

@@ -1,0 +1,69 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "llama-b8999-xcframework.zip",
+  "engineVersion" : "b8999",
+  "id" : "D50D40DE-0059-4D94-BE8B-3E7849D1C7F4",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : true,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 4.350949042917643,
+    "finalThermalState" : "fair",
+    "firstTokenLatencyMS" : 0,
+    "generatedTokenCount" : 1,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "loadTimeSeconds" : 7.150297045707703,
+    "memoryAfterGenerationMB" : 204.47319793701172,
+    "memoryAfterLoadMB" : 181.11375427246094,
+    "memoryBaselineMB" : 10.3758544921875,
+    "memoryFinalResidentMB" : 1024.890625,
+    "memoryMedianMB" : 201.50442504882812,
+    "memoryMedianResidentMB" : 1050.0625,
+    "memoryPeakDuringDecodeMB" : 201.55130004882812,
+    "memoryPeakResidentMB" : 1056.0625,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 12,
+    "promptTokensPerSecond" : 393.30049815390026,
+    "promptTokensPerSecondWallClock" : 44.80872606455076,
+    "stopReason" : "error",
+    "streamedChunkCount" : 0,
+    "totalGenerationTimeSeconds" : 0.2680180072784424
+  },
+  "model" : {
+    "displayName" : "Gemma 4 E4B Q4_K_M (GGUF)",
+    "hfFilePatterns" : [
+      "gemma-4-E4B-it-Q4_K_M.gguf"
+    ],
+    "hfRepoId" : "unsloth\/gemma-4-E4B-it-GGUF",
+    "id" : "unsloth\/gemma-4-E4B-it-GGUF\/Q4_K_M",
+    "onDiskSizeMB" : 3300,
+    "parameterCountB" : 4,
+    "primaryFile" : "gemma-4-E4B-it-Q4_K_M.gguf",
+    "quantization" : "Q4_K_M"
+  },
+  "outputSample" : "",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "llama.cpp",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-10T17:55:47Z"
+}

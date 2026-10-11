@@ -1,0 +1,74 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "CLiteRTLM.xcframework.zip@v0.16.0 sha256:4e0f683da07566ee79c143d2d58d387f77052b0e6a41562c969e5d2728fc9f4b",
+  "engineVersion" : "v0.16.0",
+  "id" : "D25A1F2A-1A3B-487F-9E32-71AFE20FEE97",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : true,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 29.739355078582985,
+    "decodeTokensPerSecondWallClock" : 29.507091554577126,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 220,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 33.76007080078125,
+    "interTokenLatencyP95MS" : 34.48498249053955,
+    "interTokenLatencyP99MS" : 34.84904766082764,
+    "loadTimeSeconds" : 224.8314619064331,
+    "memoryAfterGenerationMB" : 503.19002532958984,
+    "memoryAfterLoadMB" : 401.62750244140625,
+    "memoryBaselineMB" : 10.641433715820312,
+    "memoryFinalResidentMB" : 887.75,
+    "memoryMedianMB" : 503.19002532958984,
+    "memoryMedianResidentMB" : 887.8125,
+    "memoryPeakDuringDecodeMB" : 553.9712982177734,
+    "memoryPeakResidentMB" : 989.359375,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 16,
+    "promptTokensPerSecond" : 150.750633098483,
+    "promptTokensPerSecondWallClock" : 72.5808033449815,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 22.51317596435547
+  },
+  "model" : {
+    "displayName" : "DeepSeek-R1-Distill-Qwen-1.5B (.litertlm)",
+    "hfFilePatterns" : [
+      "DeepSeek-R1-Distill-Qwen-1.5B_multi-prefill-seq_q8_ekv4096.litertlm"
+    ],
+    "hfRepoId" : "litert-community\/DeepSeek-R1-Distill-Qwen-1.5B",
+    "id" : "litert-community\/DeepSeek-R1-Distill-Qwen-1.5B",
+    "onDiskSizeMB" : 1700,
+    "parameterCountB" : 1.5,
+    "primaryFile" : "DeepSeek-R1-Distill-Qwen-1.5B_multi-prefill-seq_q8_ekv4096.litertlm",
+    "quantization" : "INT8"
+  },
+  "modelRevision" : "2f8b8ee90d8f93b15305b699e8772b277d074a9a",
+  "outputSample" : "Okay, so I need to explain what on-device AI means in simple terms. Hmm, I'm not entirely sure what on-device AI is, but I think it has something to do with AI happening on a single device. Let me bre",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "litert-lm",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T19:17:32Z"
+}

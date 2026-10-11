@@ -1,0 +1,73 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "llama-b8999-xcframework.zip",
+  "engineVersion" : "b8999",
+  "id" : "147C1AC5-70B1-4D61-815D-46B34999663B",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 123.91007895612478,
+    "decodeTokensPerSecondWallClock" : 138.3597845781476,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 68,
+    "generatedTokenCount" : 76,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 6.9179534912109375,
+    "interTokenLatencyP95MS" : 9.936928749084473,
+    "interTokenLatencyP99MS" : 12.225985527038574,
+    "memoryAfterGenerationMB" : 70.03233337402344,
+    "memoryAfterLoadMB" : 70.01670837402344,
+    "memoryBaselineMB" : 70.01670837402344,
+    "memoryFinalResidentMB" : 326.71875,
+    "memoryMedianMB" : 70.03233337402344,
+    "memoryMedianResidentMB" : 326.71875,
+    "memoryPeakDuringDecodeMB" : 70.03233337402344,
+    "memoryPeakResidentMB" : 326.71875,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 21,
+    "promptTokensPerSecond" : 10324.743171961083,
+    "promptTokensPerSecondWallClock" : 308.71926227353504,
+    "stopReason" : "stop",
+    "streamedChunkCount" : 76,
+    "totalGenerationTimeSeconds" : 0.6160800457000732
+  },
+  "model" : {
+    "displayName" : "LFM2.5-350M Q4_K_M (GGUF)",
+    "hfFilePatterns" : [
+      "LFM2.5-350M-Q4_K_M.gguf"
+    ],
+    "hfRepoId" : "LiquidAI\/LFM2.5-350M-GGUF",
+    "id" : "LiquidAI\/LFM2.5-350M-GGUF\/Q4_K_M",
+    "onDiskSizeMB" : 230,
+    "parameterCountB" : 0.35,
+    "primaryFile" : "LFM2.5-350M-Q4_K_M.gguf",
+    "quantization" : "Q4_K_M"
+  },
+  "modelRevision" : "657e078c94084481950a2d555a941481f715536b",
+  "outputSample" : "On-device AI means that the AI is processed directly on your device, like a smartphone or tablet, rather than being sent to a cloud server. This means your device can handle the AI tasks without needi",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "llama.cpp",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T18:32:36Z"
+}

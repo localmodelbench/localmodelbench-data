@@ -1,0 +1,69 @@
+{
+  "device" : {
+    "batteryLevel" : 0.75,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "id" : "FE36F551-EF9A-4849-849C-C7F7EB0621CB",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 132.58623933694918,
+    "decodeTokensPerSecondWallClock" : 9.781158933187038,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 324,
+    "generatedTokenCount" : 115,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 92.22292900085449,
+    "interTokenLatencyP95MS" : 158.53703022003174,
+    "interTokenLatencyP99MS" : 158.53703022003174,
+    "memoryAfterGenerationMB" : 15.641456604003906,
+    "memoryAfterLoadMB" : 15.485206604003906,
+    "memoryBaselineMB" : 15.485206604003906,
+    "memoryFinalResidentMB" : 48.9375,
+    "memoryMedianMB" : 15.641456604003906,
+    "memoryMedianResidentMB" : 48.9375,
+    "memoryPeakDuringDecodeMB" : 15.641456604003906,
+    "memoryPeakResidentMB" : 48.9375,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 12,
+    "promptTokensPerSecond" : 37.04584208447986,
+    "promptTokensPerSecondWallClock" : 37.041616177375914,
+    "stopReason" : "stop",
+    "streamedChunkCount" : 9,
+    "totalGenerationTimeSeconds" : 1.1913319826126099
+  },
+  "model" : {
+    "displayName" : "Apple Foundation Model (default, on-device)",
+    "hfFilePatterns" : [
+      "*"
+    ],
+    "hfRepoId" : "",
+    "id" : "apple-fm\/default",
+    "parameterCountB" : 3,
+    "primaryFile" : "",
+    "quantization" : "Apple-quant (~2-4 bit, adapters)"
+  },
+  "outputSample" : "On-device AI means that the AI processing happens directly on the device, like a smartphone or computer. Instead of sending data to a cloud server, the AI runs locally on the device. This means that t",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "apple-fm",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T18:15:01Z"
+}

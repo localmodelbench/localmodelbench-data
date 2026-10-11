@@ -1,0 +1,70 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "id" : "7AE45F22-AEA3-4019-9C9C-58B6370976DE",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : true,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 81.2628465524178,
+    "decodeTokensPerSecondWallClock" : 5.830378944074522,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 2031,
+    "generatedTokenCount" : 130,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 180.63998222351074,
+    "interTokenLatencyP95MS" : 230.16798496246338,
+    "interTokenLatencyP99MS" : 230.16798496246338,
+    "loadTimeSeconds" : 0.017094969749450684,
+    "memoryAfterGenerationMB" : 13.250831604003906,
+    "memoryAfterLoadMB" : 11.719581604003906,
+    "memoryBaselineMB" : 10.922706604003906,
+    "memoryFinalResidentMB" : 46.34375,
+    "memoryMedianMB" : 13.157081604003906,
+    "memoryMedianResidentMB" : 47.046875,
+    "memoryPeakDuringDecodeMB" : 13.469581604003906,
+    "memoryPeakResidentMB" : 52.40625,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 12,
+    "promptTokensPerSecond" : 5.908567876603841,
+    "promptTokensPerSecondWallClock" : 5.907811577851679,
+    "stopReason" : "stop",
+    "streamedChunkCount" : 10,
+    "totalGenerationTimeSeconds" : 3.630959987640381
+  },
+  "model" : {
+    "displayName" : "Apple Foundation Model (default, on-device)",
+    "hfFilePatterns" : [
+      "*"
+    ],
+    "hfRepoId" : "",
+    "id" : "apple-fm\/default",
+    "parameterCountB" : 3,
+    "primaryFile" : "",
+    "quantization" : "Apple-quant (~2-4 bit, adapters)"
+  },
+  "outputSample" : "On-device AI refers to the use of artificial intelligence (AI) processing that happens directly on a device, like a smartphone, tablet, or computer. Instead of sending data to a cloud server for proce",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "apple-fm",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-10T17:55:35Z"
+}

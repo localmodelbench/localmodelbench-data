@@ -1,0 +1,72 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineVersion" : "60bd0d7880c82980f9481f8be78862e9b63c58a3",
+  "id" : "AFC429A6-0D38-406A-AFE7-2F3702BA471E",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+
+    ],
+    "decodeTokensPerSecond" : 67.22756266533098,
+    "decodeTokensPerSecondWallClock" : 66.7045524756966,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 84,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 14.913082122802734,
+    "interTokenLatencyP95MS" : 15.38705825805664,
+    "interTokenLatencyP99MS" : 15.977978706359863,
+    "memoryAfterGenerationMB" : 1062.4391326904297,
+    "memoryAfterLoadMB" : 1079.9703826904297,
+    "memoryBaselineMB" : 1079.9703826904297,
+    "memoryFinalResidentMB" : 1122.890625,
+    "memoryMedianMB" : 1062.4391326904297,
+    "memoryMedianResidentMB" : 1122.890625,
+    "memoryPeakDuringDecodeMB" : 1079.9703826904297,
+    "memoryPeakResidentMB" : 1122.890625,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 16,
+    "promptTokensPerSecond" : 191.94554157388856,
+    "promptTokensPerSecondWallClock" : 189.6812983679953,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 1.9948580265045166
+  },
+  "model" : {
+    "displayName" : "DeepSeek-R1-Distill-Qwen-1.5B (4-bit)",
+    "hfFilePatterns" : [
+      "*"
+    ],
+    "hfRepoId" : "mlx-community\/DeepSeek-R1-Distill-Qwen-1.5B-4bit",
+    "id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-1.5B-4bit",
+    "onDiskSizeMB" : 1000,
+    "parameterCountB" : 1.5,
+    "primaryFile" : "",
+    "quantization" : "Q4"
+  },
+  "modelRevision" : "933185be1b8f81d9a21dcfa15ff73470d3545240",
+  "outputSample" : "Okay, so I need to understand what on-device AI means in simple terms. I've heard the term before, maybe in the context of smart devices or something like that. Let me break it down.\n\nFirst, AI stands",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "mlx-swift",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T19:11:39Z"
+}

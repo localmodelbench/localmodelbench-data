@@ -1,0 +1,74 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "CLiteRTLM.xcframework.zip@v0.16.0 sha256:4e0f683da07566ee79c143d2d58d387f77052b0e6a41562c969e5d2728fc9f4b",
+  "engineVersion" : "v0.16.0",
+  "id" : "3D1F5C90-76E0-4D69-B6D1-A2C13D9D0BCF",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+      20.775163941409016,
+      20.338456347412812
+    ],
+    "decodeTokensPerSecond" : 20.279441289064213,
+    "decodeTokensPerSecondWallClock" : 20.12104007567989,
+    "finalThermalState" : "fair",
+    "firstTokenLatencyMS" : 231,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 48.46501350402832,
+    "interTokenLatencyP95MS" : 58.70091915130615,
+    "interTokenLatencyP99MS" : 82.85999298095703,
+    "memoryAfterGenerationMB" : 613.4568634033203,
+    "memoryAfterLoadMB" : 613.3943634033203,
+    "memoryBaselineMB" : 613.3943634033203,
+    "memoryFinalResidentMB" : 715.625,
+    "memoryMedianMB" : 613.4099884033203,
+    "memoryMedianResidentMB" : 716.15625,
+    "memoryPeakDuringDecodeMB" : 622.6287384033203,
+    "memoryPeakResidentMB" : 746.59375,
+    "peakThermalState" : "fair",
+    "promptTokenCount" : 20,
+    "promptTokensPerSecond" : 112.00196791937714,
+    "promptTokensPerSecondWallClock" : 86.75358977978617,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 36.32309305667877
+  },
+  "model" : {
+    "displayName" : "Gemma 4 E4B (.litertlm)",
+    "hfFilePatterns" : [
+      "gemma-4-E4B-it.litertlm"
+    ],
+    "hfRepoId" : "litert-community\/gemma-4-E4B-it-litert-lm",
+    "id" : "litert-community\/gemma-4-E4B-it-litert-lm",
+    "onDiskSizeMB" : 3750,
+    "parameterCountB" : 4,
+    "primaryFile" : "gemma-4-E4B-it.litertlm",
+    "quantization" : "INT4 (QAT)"
+  },
+  "modelRevision" : "2eee7ac325f20eb8c9ac1d0e972f7c84663062da",
+  "outputSample" : "Imagine you have a super-smart assistant, like Siri or Google Assistant.\n\n**In the old way (Cloud AI):** When you ask a question, your phone sends that question over the internet to a giant computer i",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "litert-lm",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-10T17:35:43Z"
+}

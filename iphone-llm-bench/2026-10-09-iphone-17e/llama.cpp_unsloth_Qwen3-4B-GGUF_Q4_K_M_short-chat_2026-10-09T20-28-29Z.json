@@ -1,0 +1,73 @@
+{
+  "device" : {
+    "batteryLevel" : 0.85,
+    "batteryState" : "charging",
+    "buildConfiguration" : "Release",
+    "initialThermalState" : "nominal",
+    "isLowPowerModeEnabled" : false,
+    "modelIdentifier" : "iPhone18,5",
+    "physicalMemoryMB" : 7706,
+    "processorCount" : 6,
+    "systemName" : "iOS",
+    "systemVersion" : "26.7.1"
+  },
+  "engineArtifact" : "llama-b8999-xcframework.zip",
+  "engineVersion" : "b8999",
+  "id" : "307A4B23-BF3F-44E4-BF6C-AB585FBEABD1",
+  "metrics" : {
+    "batteryDeltaPercent" : 0,
+    "coldRun" : false,
+    "contextTokensConfigured" : 672,
+    "decodeRateRollingWindow" : [
+      22.53994171961118
+    ],
+    "decodeTokensPerSecond" : 21.504285308472834,
+    "decodeTokensPerSecondWallClock" : 22.45293551408247,
+    "finalThermalState" : "nominal",
+    "firstTokenLatencyMS" : 300,
+    "generatedTokenCount" : 128,
+    "harnessStamp" : "2026-07-30-agreed-protocol-r4",
+    "initialThermalState" : "nominal",
+    "interTokenLatencyP50MS" : 44.54004764556885,
+    "interTokenLatencyP95MS" : 45.92299461364746,
+    "interTokenLatencyP99MS" : 46.35000228881836,
+    "memoryAfterGenerationMB" : 189.7214584350586,
+    "memoryAfterLoadMB" : 189.7683334350586,
+    "memoryBaselineMB" : 189.7683334350586,
+    "memoryFinalResidentMB" : 2540.421875,
+    "memoryMedianMB" : 189.7683334350586,
+    "memoryMedianResidentMB" : 2540.421875,
+    "memoryPeakDuringDecodeMB" : 189.7995834350586,
+    "memoryPeakResidentMB" : 2540.421875,
+    "peakThermalState" : "nominal",
+    "promptTokenCount" : 19,
+    "promptTokensPerSecond" : 5271.840439255118,
+    "promptTokensPerSecondWallClock" : 63.370107692589066,
+    "stopReason" : "length",
+    "streamedChunkCount" : 128,
+    "totalGenerationTimeSeconds" : 5.959971070289612
+  },
+  "model" : {
+    "displayName" : "Qwen3-4B Q4_K_M (GGUF)",
+    "hfFilePatterns" : [
+      "Qwen3-4B-Q4_K_M.gguf"
+    ],
+    "hfRepoId" : "unsloth\/Qwen3-4B-GGUF",
+    "id" : "unsloth\/Qwen3-4B-GGUF\/Q4_K_M",
+    "onDiskSizeMB" : 2500,
+    "parameterCountB" : 4,
+    "primaryFile" : "Qwen3-4B-Q4_K_M.gguf",
+    "quantization" : "Q4_K_M"
+  },
+  "modelRevision" : "22c9fc8a8c7700b76a1789366280a6a5a1ad1120",
+  "outputSample" : "<think>\nOkay, the user is asking me to explain what on-device AI means in simple terms. Let me start by recalling what I know about on-device AI. From what I remember, on-device AI refers to AI models",
+  "parameters" : {
+    "maxTokens" : 128,
+    "temperature" : 0,
+    "topP" : 1
+  },
+  "runtime" : "llama.cpp",
+  "schemaVersion" : 1,
+  "task" : "short-chat",
+  "timestamp" : "2026-10-09T20:28:29Z"
+}
